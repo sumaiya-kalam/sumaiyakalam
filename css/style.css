@@ -18,7 +18,6 @@ a{
     background-color: seashell;
     margin-top: 0;
     padding: 0;
-    
     align-items: center;
     justify-content: space-around;    
 }
@@ -54,7 +53,8 @@ a.navbar-brand:hover{
 }
 
 .navbar{
-    margin: 0px 40px;
+    margin:0;
+    
 }
 .nav-link{
  text-decoration: none;
@@ -104,7 +104,7 @@ a.navbar-brand:hover{
 	margin-top: 30px;
 }
 .dp{
-	width:600px;
+	width:60%;
 	height:400px;
 }
 .dp img{
@@ -120,7 +120,7 @@ a.navbar-brand:hover{
 .main-text h1{
 	font-size: 3rem;
 	color:#1c3548;
-	margin:0px 0px 10px 0px;
+	
 	line-height: 60px;
 }
 .main-text p{
@@ -325,7 +325,7 @@ h3{
     margin-bottom: 50px;
 }
 .pcontent{
-    margin: auto;
+   
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -480,6 +480,7 @@ h3{
     }
     .main-text{
         padding:0px 30px;
+        width: 500px;
     }
     .main-text h1{
         font-size: 45px;
