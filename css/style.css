@@ -5,22 +5,27 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-
-
-/*-----------------------Home styling --------------------------*/
-.navigation{
-    height: 110px;
-    width: 100%;
-    background-color: seashell;
-    background-position:center;
-    background-size: cover;   
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight:500;
+    color:#287575;
 }
 
-nav{
-    display: flex;
+
+/*-----------------------Navigation styling --------------------------*/
+.navigation{
+    background-color: seashell;
+    margin-top: 0;
+    padding: 0;
+    
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;    
+}
+
+nav{  
+    align-items: center;
+    justify-content: space-between;
     padding-top: 35px;
     padding-left: 8%;
     padding-right: 8%;
@@ -28,7 +33,7 @@ nav{
     box-shadow: 5px 10px 30px rgb(0,0,0,0.02);
 }
 
-.logo{
+a.navbar-brand{
     color:#287575;
     font-family:'Poppins', sans-serif ;
     font-size: 35px;
@@ -38,48 +43,56 @@ nav{
     cursor: pointer;
 }
 
-#maiya{
-    color: #287575;
+a.navbar-brand:hover{
+    color: #23cdaf;
 }
 
-#log{
-    font-size: 42px;
-}
-span{   
-    color: rgba(240, 12, 12, 0.863);
-}
-
-.menu{
-    list-style: none;
+.jack{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-a{
-    text-decoration: none;
+.navbar{
+    margin: 0px 40px;
+}
+.nav-link{
+ text-decoration: none;
+ color: teal;
+ margin:3px;
+ padding: 0px 22px; 
+ font-weight:500;
+ 
 }
 
-nav ul li a{
+.navbar-toggler{
+    background-color: teal;
+}
+.navbar-toggler-icon{
+    background-color:tan;
+    
+}
+.navigation ul li a{
     height: 40px;
     line-height: 43px;
     margin:3px;
     padding: 0px 22px;
-    display: flex;
-    font-size: 1rem;
+    
     font-weight:500;
     color:#287575;
     letter-spacing: 1px;
     text-transform: uppercase;
     
 }
-nav ul li a:hover{
+
+.navigation ul li a:hover{
     background-color: #2adabc;
     color:#FFFFFF;
     box-shadow: 5px 10px 30px rgb(64,198,196,0.3);
     transition: all ease 0.2s;
+    border-radius: 6px;
 
 }
-
-
 
 /*------------------------ About Me styling---------------------------- */
 
@@ -429,9 +442,7 @@ h3{
 
 @media(max-width:768px){
 
-    .navigation{
-        width:100%;
-    }
+    
     .acontent{
         display: block;
     }
@@ -469,6 +480,9 @@ h3{
     }
     .main-text{
         padding:0px 30px;
+    }
+    .main-text h1{
+        font-size: 45px;
     }
 
 }
