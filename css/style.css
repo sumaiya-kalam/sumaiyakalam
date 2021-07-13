@@ -14,9 +14,7 @@
     width: 100%;
     background-color: seashell;
     background-position:center;
-    background-size: cover;
-   
-    
+    background-size: cover;   
 }
 
 nav{
@@ -86,7 +84,7 @@ nav ul li a:hover{
 /*------------------------ About Me styling---------------------------- */
 
 .acontent{
-	
+	width: 80%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -191,7 +189,7 @@ h3{
 /*-----------------Styling My skills part-----------------*/
 .skills{
     margin:auto;
-    width: 1100px;
+    width: 80%;
     padding: 100px 0px;
 }
 
@@ -303,7 +301,7 @@ h3{
 /*----------------------styling Projects-----------------------*/
 .projects{
     margin:auto;
-    width: 1100px;
+    width: 80%;
     padding: 100px 0px;
 }
 
@@ -430,6 +428,10 @@ h3{
 }
 
 @media(max-width:768px){
+
+    .navigation{
+        width:100%;
+    }
     .acontent{
         display: block;
     }
@@ -453,5 +455,20 @@ h3{
     .contents{
         display: block;
     }
-    
+    .left{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .pcontent{
+        display: block;
+    }
+    .fcontents{
+        width: 100%;
+        display: inline;
+    }
+    .main-text{
+        padding:0px 30px;
+    }
+
 }
