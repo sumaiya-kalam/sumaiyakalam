@@ -120,7 +120,6 @@ a.navbar-brand:hover{
 .main-text h1{
 	font-size: 3rem;
 	color:#1c3548;
-	
 	line-height: 60px;
 }
 .main-text p{
@@ -444,7 +443,9 @@ h3{
 
     
     .acontent{
-        display: block;
+        display: inline-block;
+        margin-right: 0%;
+        justify-content:inherit;
     }
     .dp{
         width: 100%;
@@ -479,11 +480,16 @@ h3{
         display: inline;
     }
     .main-text{
-        padding:0px 30px;
-        width: 500px;
+        padding-left: 47px;
+       
+        margin-right: 0;
+        
     }
     .main-text h1{
-        font-size: 45px;
+        font-size: 36px;
+    }
+    .proj-col img{
+        width: 100%;
     }
 
 }
