@@ -99,7 +99,7 @@ a.navbar-brand:hover{
 .acontent{
 	width: 80%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	margin-top: 30px;
 }
@@ -115,7 +115,7 @@ a.navbar-brand:hover{
 }
 
 .main-text{
-	width:500px;
+	width:50%;
 }
 .main-text h1{
 	font-size: 3rem;
@@ -444,6 +444,7 @@ h3{
     
     .acontent{
         display:block;
+        width: 80%;
         margin: 0;
         
     }
